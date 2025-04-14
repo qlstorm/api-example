@@ -5,8 +5,8 @@ namespace lib;
 class Logistic {
 
     public static function process() {
-        $date = $_GET['date'];
-        $direction = $_GET['direction'];
+        $date = $_POST['date'];
+        $direction = $_POST['direction'];
 
         setlocale(LC_ALL, 'ru_RU');
 
