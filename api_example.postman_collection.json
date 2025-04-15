@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "1e811b82-1bab-4844-8ca0-96bec17ff1ae",
+		"name": "api_example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "43943324"
+	},
+	"item": [
+		{
+			"name": "localhost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "lat",
+							"value": "52.37125",
+							"type": "text"
+						},
+						{
+							"key": "lon",
+							"value": "4.89388",
+							"type": "text"
+						}
+					]
+				},
+				"url": "localhost"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "date",
+							"value": "2025-03-01 23:00:00",
+							"type": "text"
+						},
+						{
+							"key": "direction",
+							"value": "Город_1",
+							"type": "text"
+						}
+					]
+				},
+				"url": "localhost"
+			},
+			"response": []
+		}
+	]
+}
